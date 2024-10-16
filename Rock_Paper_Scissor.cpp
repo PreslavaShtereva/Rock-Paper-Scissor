@@ -26,9 +26,7 @@ int main() {
 
     if (playerChoice == computerChoice) {
         cout << "It's a tie!" << endl;
-    } else if ((playerChoice == 0 && computerChoice == 2) || // Rock beats Scissors
-               (playerChoice == 1 && computerChoice == 0) || // Paper beats Rock
-               (playerChoice == 2 && computerChoice == 1)) { // Scissors beats Paper
+    } else if ((playerChoice == 0 && computerChoice == 2) || (playerChoice == 1 && computerChoice == 0) ||(playerChoice == 2 && computerChoice == 1)) { 
         cout << "You win!" << endl;
     } else {
         cout << "Computer wins!" << endl;
